@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavegacionComponent } from './navegacion.component';
+import { FiltrarDatosComponent } from './filtrar-datos.component';
 
-describe('NavegacionComponent', () => {
-  let component: NavegacionComponent;
-  let fixture: ComponentFixture<NavegacionComponent>;
+describe('FiltrarDatosComponent', () => {
+  let component: FiltrarDatosComponent;
+  let fixture: ComponentFixture<FiltrarDatosComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavegacionComponent ]
+      declarations: [ FiltrarDatosComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavegacionComponent);
+    fixture = TestBed.createComponent(FiltrarDatosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

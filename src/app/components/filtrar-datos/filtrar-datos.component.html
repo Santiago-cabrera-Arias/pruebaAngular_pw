@@ -1,0 +1,30 @@
+<div class="container container_registro" >
+
+    <div class="mb-3">
+      
+      <header>
+
+        <h1> Prueba Angular </h1>
+
+      </header>
+
+      <div>
+        <label for="exampleFormControlInput1" class="form-label">Title</label>
+        <input type="text" [(ngModel)]="filtro" class="form-control">
+      </div>    
+
+      <ul>
+
+        <li *ngFor="let lista of datos | filtro : filtro" >
+        
+            <p>{{lista.nombre}}</p>
+            <p>{{lista.email}}</p>
+            <p>{{lista.cedula}}</p>
+
+        </li>
+
+      </ul>
+
+      
+
+</div>
